@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>bai tap 5</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="bai tap 5.css" />
+    
+</head>
+
+<body>
+    <header>
+        <div id="div1"> logo</div>
+        <div id="div2"> banner</div>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">News</a>
+        <a href="#">Feedback</a>
+        <a href="#">Cart</a>
+        <a href="#">Sign in</a>
+        <a href="#">Resiter</a>
+    </nav>
+    <section>
+        <div id="left">
+            <p>Aside</p>
+        </div>
+        <div id="mid">
+            <strong><p style="text-align: center">ÐANG KÝ THÀNH VIÊN</p></strong>
+            <ul style="list-style-type: none">
+                <li>Tên dang nh?p*:<input id="accname" type="text" value="" placeholder="hãy nh?p tên dang nh?p"></li>
+                <li>M?t kh?u*:<input id="pass" type="password" value="" placeholder="m?t kh?u phân bi?t ch? hoa thu?ng"></li>
+                <li>Xác nh?n m?t kh?u*:<input id="cornfirm" type="password" value="" placeholder="nh?p l?i m?t kh?u"></li>
+                <li>H? và tên*: <input type="text" id="name" value="" placeholder="H? và Tên"> </li>
+                <li>Ngày sinh*:<input id="dateofbirth" type="date" value=""></li>
+                <li>Ð?a ch?*:<input id="add" type="input" value="" placeholder="d?a ch? c?a b?n"></li>
+                <li>S? di?n tho?i*:<input id="phone" type="text" placeholder="insert your number"></li>
+                <li>E-mail*:<input id="mail" type="email" value="" placeholder="example@domain.com"> </li>
+                <li>Facebook*:,<input id="fb" type="text" value="" placeholder="Facebook"></li>
+                <li>Gi?i tính*:<input id="sex1" type="checkbox" name="Nam" value="">Nam<input id="sex2" type="checkbox" name="N?" value="">N?</li>
+                <li><input id="register" type="button" value="Ðang ký"> <input id="reset" type="button" value="Làm l?i"></li>
+            </ul>
+        </div>
+        <div id="right">
+            <p>Aside</p>
+        </div>
+    </section>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
